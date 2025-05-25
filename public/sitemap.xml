@@ -1,0 +1,46 @@
+<!-- public/sitemap.xml -->
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://certcafe.kr</loc>
+    <lastmod>2025-05-24</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://certcafe.kr/dashboard</loc>
+    <lastmod>2025-05-24</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://certcafe.kr/cbt</loc>
+    <lastmod>2025-05-24</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://certcafe.kr/emotion</loc>
+    <lastmod>2025-05-24</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://certcafe.kr/community</loc>
+    <lastmod>2025-05-24</lastmod>
+    <priority>0.7</priority>
+  </url>
+</urlset>
+
+<!-- public/robots.txt -->
+User-agent: *
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Yeti
+Allow: /
+Crawl-delay: 1
+
+Sitemap: https://certcafe.kr/sitemap.xml
+
+Disallow: /api/
+Disallow: /_next/
